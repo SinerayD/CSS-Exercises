@@ -1,0 +1,59 @@
+#wrapper {
+    display: grid;
+    grid-template-columns: auto;
+    row-gap: 24px;
+    background-color: black;
+
+}
+
+.product {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    height: 55px;
+    margin-bottom: 10px;
+
+}
+
+#systems-expert {
+    grid-row: 1;
+    grid-column: 1;
+    width: 50%;
+    align-self: center;
+    background-color: brown;
+}
+
+#ml-expert {
+    grid-row: 1;
+    grid-column: 2;
+    height: 75px;
+    width: 30%;
+    background-color: rgb(223, 146, 4);
+}
+
+#algo-expert {
+    grid-row: 2;
+    grid-column: 1;
+    width: 75%;
+   justify-self: center;
+    background-color: rgb(97, 78, 207);
+}
+
+#frontend-expert {
+    grid-row: 3;
+    grid-column: 1;
+    width: 40%;
+    align-self: end;
+    background-color: green;
+}
+
+#programming-expert {
+    grid-row: 3;
+    grid-column: 2 ;
+    height: 75px;
+    background-color: red;
+}
